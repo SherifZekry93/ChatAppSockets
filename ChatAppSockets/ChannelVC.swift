@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ChannelVC.swift
 //  ChatAppSockets
 //
 //  Created by Sherif  Wagih on 12/27/18.
@@ -7,14 +7,10 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+import SWRevealViewController
+class ChannelVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        revealViewController().rearViewRevealWidth = self.view.frame.width - 60
     }
-
-
 }
-
