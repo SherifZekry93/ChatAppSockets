@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E72F3D121D5129E00A740DD /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E72F3D021D5129E00A740DD /* Constatns.swift */; };
+		7E72F3D321D5232E00A740DD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E72F3D221D5232E00A740DD /* LoginVC.swift */; };
 		7E96912121D4ED9000F92009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96912021D4ED9000F92009 /* AppDelegate.swift */; };
 		7E96912621D4ED9000F92009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E96912421D4ED9000F92009 /* Main.storyboard */; };
 		7E96912B21D4ED9000F92009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E96912A21D4ED9000F92009 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E72F3D021D5129E00A740DD /* Constatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatns.swift; sourceTree = "<group>"; };
+		7E72F3D221D5232E00A740DD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		7E96911D21D4ED9000F92009 /* ChatAppSockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppSockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E96912021D4ED9000F92009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E96912521D4ED9000F92009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7E72F3CF21D5128000A740DD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E72F3D021D5129E00A740DD /* Constatns.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		7E96911421D4ED9000F92009 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,7 @@
 		7E96911F21D4ED9000F92009 /* ChatAppSockets */ = {
 			isa = PBXGroup;
 			children = (
+				7E72F3CF21D5128000A740DD /* Utilities */,
 				7E96913721D4EF4400F92009 /* Model */,
 				7E96913621D4EF3F00F92009 /* View */,
 				7E96913521D4EF3600F92009 /* Controller */,
@@ -97,6 +110,7 @@
 			children = (
 				7E96913821D4EF6900F92009 /* ChatVC.swift */,
 				7E96913A21D4EF7400F92009 /* ChannelVC.swift */,
+				7E72F3D221D5232E00A740DD /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -238,6 +252,8 @@
 				7E96913B21D4EF7400F92009 /* ChannelVC.swift in Sources */,
 				7E96913921D4EF6900F92009 /* ChatVC.swift in Sources */,
 				7E96912121D4ED9000F92009 /* AppDelegate.swift in Sources */,
+				7E72F3D121D5129E00A740DD /* Constatns.swift in Sources */,
+				7E72F3D321D5232E00A740DD /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
