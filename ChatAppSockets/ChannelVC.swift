@@ -7,10 +7,12 @@
 //
 
 import UIKit
-import SWRevealViewController
+import SideMenu
 class ChannelVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        revealViewController().rearViewRevealWidth = self.view.frame.width - 60
+        SideMenuManager.default.menuFadeStatusBar = false
+        navigationController?.navigationBar.isHidden = true
+        SideMenuManager.default.menuWidth = view.frame.width - 59
     }
 }
