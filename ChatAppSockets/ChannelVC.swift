@@ -10,6 +10,7 @@ import UIKit
 import SideMenu
 class ChannelVC: UIViewController {
     @IBOutlet weak var loginBtn: UIButton!
+    @IBAction func prepareForUnwindSegue(sender:UIStoryboardSegue){}
     override func viewDidLoad() {
         super.viewDidLoad()
         SideMenuManager.default.menuFadeStatusBar = false

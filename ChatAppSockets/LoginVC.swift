@@ -15,4 +15,8 @@ class LoginVC: UIViewController {
     @IBAction func dismissClicked(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func dontHaveAnAccountButtonClicked(_ sender: UIButton) {
+        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: self)
+    }
 }

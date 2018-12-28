@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E21D86021D604DC007F6C41 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21D85F21D604DC007F6C41 /* CreateAccountVC.swift */; };
 		7E72F3D121D5129E00A740DD /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E72F3D021D5129E00A740DD /* Constatns.swift */; };
 		7E72F3D321D5232E00A740DD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E72F3D221D5232E00A740DD /* LoginVC.swift */; };
 		7E96912121D4ED9000F92009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96912021D4ED9000F92009 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E21D85F21D604DC007F6C41 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		7E72F3D021D5129E00A740DD /* Constatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatns.swift; sourceTree = "<group>"; };
 		7E72F3D221D5232E00A740DD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		7E96911D21D4ED9000F92009 /* ChatAppSockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppSockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				7E96913821D4EF6900F92009 /* ChatVC.swift */,
 				7E96913A21D4EF7400F92009 /* ChannelVC.swift */,
 				7E72F3D221D5232E00A740DD /* LoginVC.swift */,
+				7E21D85F21D604DC007F6C41 /* CreateAccountVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				7E96913B21D4EF7400F92009 /* ChannelVC.swift in Sources */,
 				7E96913921D4EF6900F92009 /* ChatVC.swift in Sources */,
+				7E21D86021D604DC007F6C41 /* CreateAccountVC.swift in Sources */,
 				7E96912121D4ED9000F92009 /* AppDelegate.swift in Sources */,
 				7E72F3D121D5129E00A740DD /* Constatns.swift in Sources */,
 				7E72F3D321D5232E00A740DD /* LoginVC.swift in Sources */,
