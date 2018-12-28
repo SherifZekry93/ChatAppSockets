@@ -478,6 +478,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerUserButtonClicked:" destination="cX2-7e-bSe" eventType="touchUpInside" id="BZx-lE-Alx"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MDs-7i-enP">
                                 <rect key="frame" x="122.5" y="296.5" width="130" height="168"/>
@@ -514,6 +517,9 @@
                         <viewLayoutGuide key="safeArea" id="nVm-Kh-dKO"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="Z56-cQ-dGd" id="dzd-n3-E12"/>
+                        <outlet property="passwordTextField" destination="OzQ-Rz-KcM" id="qKh-b6-K7w"/>
+                        <outlet property="usernameTextField" destination="UhK-RI-Mqx" id="bst-Hw-2wY"/>
                         <segue destination="SzB-PQ-jPA" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindSegueWithSender:" id="C1d-Fl-WiE"/>
                     </connections>
                 </viewController>
